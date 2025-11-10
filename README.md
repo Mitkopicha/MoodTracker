@@ -1,3 +1,67 @@
+#  ☀️ MoodTrack 🌙  
+A simple web app for tracking your daily mood and habits to help you stay aware of your overall well-being.
+
+Built with **Next.js 15** and **Firebase**, it lets users log how they feel each day, note things like sleep and activity, and see trends over time.  
+The goal is to make mood tracking quick, visual, and easy to keep up with.
+
+---
+
+## Features
+
+- **Mood Log:** Record your daily mood with an emoji scale.  
+- **Daily Habits:** Track sleep, activity, and social time.  
+- **Well-being Tips:** Get short motivational messages based on your entries.  
+- **History View:** Look back at previous days and notice patterns.  
+- **Secure Login:** Uses Firebase Authentication (email and password).  
+- **Dark/Light Theme:** Switch themes based on your preference.  
+- **Responsive Design:** Works well on both desktop and mobile.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js 15 (App Router), React  
+- **Backend:** Firebase Authentication & Firestore Database  
+- **Styling:** CSS Modules  
+- **Deployment:** Firebase Hosting
+
+---
+
+## Demo  
+🎥 [Watch on YouTube](https://youtu.be/YOUR_DEMO_LINK_HERE)
+
+---
+
+## Screenshots
+
+### Login Page  
+<img width="261" height="468" alt="Figma_Log_In_Prototype" src="https://github.com/user-attachments/assets/eb7e4c38-2b35-40a0-9eea-e937be7f74f5" />
+<img width="1786" height="1049" alt="image" src="https://github.com/user-attachments/assets/36934a0d-4ccf-4e32-a406-86ee21f62a6b" />
+
+
+
+### Mood Entry  
+<img width="663" height="528" alt="Screenshot 2025-11-07 111359" src="https://github.com/user-attachments/assets/8b973ad3-fde8-49d1-ae04-6b20c17602b5" />
+
+
+### Progress View  
+![Progress Screenshot](docs/progress.png)
+
+---
+
+## Installation
+
+Make sure you have Node.js (v18+) installed.
+
+```bash
+git clone https://github.com/Mitkopicha/MoodTracker.git
+cd MoodTracker
+npm install
+npm run dev
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
