@@ -28,7 +28,7 @@ The goal is to make mood tracking quick, visual, and easy to keep up with.
 ---
 
 ## Demo  
-🎥 [Watch on YouTube](https://youtu.be/YOUR_DEMO_LINK_HERE)
+🎥 [[Watch on YouTube](https://youtu.be/YOUR_DEMO_LINK_HERE)](https://youtu.be/Odf-6k-jcRE)
 
 ---
 
@@ -38,14 +38,26 @@ The goal is to make mood tracking quick, visual, and easy to keep up with.
 <img width="261" height="468" alt="Figma_Log_In_Prototype" src="https://github.com/user-attachments/assets/eb7e4c38-2b35-40a0-9eea-e937be7f74f5" />
 <img width="1786" height="1049" alt="image" src="https://github.com/user-attachments/assets/36934a0d-4ccf-4e32-a406-86ee21f62a6b" />
 
-
+### Home Page 
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/0dc7a613-7a4f-4cec-b936-2915358625c3" />
 
 ### Mood Entry  
 <img width="663" height="528" alt="Screenshot 2025-11-07 111359" src="https://github.com/user-attachments/assets/8b973ad3-fde8-49d1-ae04-6b20c17602b5" />
 
 
 ### Progress View  
-![Progress Screenshot](docs/progress.png)
+<img width="1904" height="1039" alt="image" src="https://github.com/user-attachments/assets/fa88d4a6-2b96-475c-8009-cfce2be3c0e5" />
+
+### Settings 
+<img width="1552" height="1068" alt="image" src="https://github.com/user-attachments/assets/d24d0b9b-1182-4576-a56b-e6ac3f6b5be3" />
+
+### About us 
+<img width="1474" height="1063" alt="image" src="https://github.com/user-attachments/assets/6132b3b5-6419-467a-b618-0e7d80a0f8fe" />
+
+### Chat Bot 
+<img width="1283" height="750" alt="image" src="https://github.com/user-attachments/assets/f9d449b7-d714-4697-9907-a02810114655" />
+
+
 
 ---
 
