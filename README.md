@@ -59,83 +59,82 @@ The goal is to make mood tracking quick, visual, and easy to keep up with.
 
 
 
----
 
 ## 🛠 Installation & Local Setup
-
-Follow these steps to run MoodTrack on your machine.
+Follow these steps to run the project locally. Everything is already set up for you — just clone, install, copy the env file, and run the server.
 
 ---
 
 ### 1. Install Node.js
 
-Ensure you have **Node.js v18+**:
+Make sure you have **Node.js v18+**:
 
 ```bash
 node -v
-If needed, download the latest LTS version from https://nodejs.org
 
 2. Clone the repository
-bash
-Copy code
 git clone https://github.com/Mitkopicha/MoodTracker.git
 cd MoodTracker
+
 3. Install dependencies
-bash
-Copy code
 npm install
+
 4. Create your .env.local file
-The project includes .env.example with everything you need.
-Simply duplicate it:
+The project includes a .env.example file with everything you need.
+Just duplicate it.
+This file already contains the Firebase configuration, so the app works immediately.
+If you want to use the chat feature, you must add your own OpenAI API key to .env.local.
+If you don’t have one or don’t want to test the chat page, you can leave it blank — everything else will still work fine.
 
-Windows (PowerShell):
-
-bash
-Copy code
+Windows (PowerShell)
 copy .env.example .env.local
-macOS / Linux:
 
-bash
-Copy code
+-----
+
+
+Windows (CMD)
+copy .env.example .env.local
+
+------
+
+macOS / Linux
 cp .env.example .env.local
-The Firebase values are already filled in so the app runs immediately.
 
-If you want to use the chat feature, add your OpenAI API key:
-
-bash
-Copy code
+Now open .env.local and add your OpenAI key if required:
 OPENAI_API_KEY=your_openai_key_here
-If you leave this blank, the rest of the app will still work normally.
+
 
 5. Start the development server
-bash
-Copy code
 npm run dev
-Visit:
+Now open: http://localhost:3000
+You’re now running MoodTrack locally.
 
-arduino
-Copy code
-http://localhost:3000
-You’re now running the app locally.
-
-⚡ Quick Setup (One-Liner)
-macOS / Linux:
-
-bash
-Copy code
+⚡ Quick Setup (One-Liners) ⚡
+macOS / Linux
 git clone https://github.com/Mitkopicha/MoodTracker.git && cd MoodTracker && npm install && cp .env.example .env.local && npm run dev
-Windows PowerShell:
 
-bash
-Copy code
+------
+
+Windows PowerShell
 git clone https://github.com/Mitkopicha/MoodTracker.git; `
 cd MoodTracker; `
 npm install; `
 copy .env.example .env.local; `
 npm run dev
+
+------
+
+
+Windows CMD
+git clone https://github.com/Mitkopicha/MoodTracker.git && ^
+cd MoodTracker && ^
+npm install && ^
+copy .env.example .env.local && ^
+npm run dev
+
+
+
 📁 Project Structure
-php
-Copy code
 MoodTracker/
 │
 ├── app/                # Next.js app router pages & layouts
@@ -147,10 +146,8 @@ MoodTracker/
 └── README.md
 🔒 Security Notes
 Firebase client keys are safe to commit (they are public by design).
-
-OpenAI keys must stay private — do not commit real API keys.
-
-.env.local is ignored by GitHub to protect sensitive values.
+OpenAI keys must stay private so do not commit real API keys!
+.env.local is ignored by GitHub to protect sensitive values
 
 📬 Contact
 Created by Dimitar Dutchev
