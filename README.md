@@ -61,36 +61,102 @@ The goal is to make mood tracking quick, visual, and easy to keep up with.
 
 ---
 
-## Installation
+## 🛠 Installation & Local Setup
 
-Make sure you have Node.js (v18+) installed.
+Follow these steps to run MoodTrack on your machine.
+
+---
+
+### 1. Install Node.js
+
+Ensure you have **Node.js v18+**:
 
 ```bash
+node -v
+If needed, download the latest LTS version from https://nodejs.org
+
+2. Clone the repository
+bash
+Copy code
 git clone https://github.com/Mitkopicha/MoodTracker.git
 cd MoodTracker
+3. Install dependencies
+bash
+Copy code
 npm install
+4. Create your .env.local file
+The project includes .env.example with everything you need.
+Simply duplicate it:
+
+Windows (PowerShell):
+
+bash
+Copy code
+copy .env.example .env.local
+macOS / Linux:
+
+bash
+Copy code
+cp .env.example .env.local
+The Firebase values are already filled in so the app runs immediately.
+
+If you want to use the chat feature, add your OpenAI API key:
+
+bash
+Copy code
+OPENAI_API_KEY=your_openai_key_here
+If you leave this blank, the rest of the app will still work normally.
+
+5. Start the development server
+bash
+Copy code
 npm run dev
+Visit:
 
+arduino
+Copy code
+http://localhost:3000
+You’re now running the app locally.
 
+⚡ Quick Setup (One-Liner)
+macOS / Linux:
 
+bash
+Copy code
+git clone https://github.com/Mitkopicha/MoodTracker.git && cd MoodTracker && npm install && cp .env.example .env.local && npm run dev
+Windows PowerShell:
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+bash
+Copy code
+git clone https://github.com/Mitkopicha/MoodTracker.git; `
+cd MoodTracker; `
+npm install; `
+copy .env.example .env.local; `
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📁 Project Structure
+php
+Copy code
+MoodTracker/
+│
+├── app/                # Next.js app router pages & layouts
+├── components/         # Reusable UI components
+├── lib/                # Firebase clients, utilities, charts, nudges
+├── public/             # Static assets
+├── .env.example        # Environment variable template
+├── package.json        # Dependencies & scripts
+└── README.md
+🔒 Security Notes
+Firebase client keys are safe to commit (they are public by design).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+OpenAI keys must stay private — do not commit real API keys.
+
+.env.local is ignored by GitHub to protect sensitive values.
+
+📬 Contact
+Created by Dimitar Dutchev
+GitHub: https://github.com/Mitkopicha
+Email: dimitar.dutchev@gmail.com
+
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
